@@ -8,4 +8,5 @@ import java.util.List;
 
 public interface FilmsRepo extends CrudRepository<Film, Integer> {
     public List<Film> paginatedAll(Pageable pageable);
+
 }
